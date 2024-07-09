@@ -222,6 +222,10 @@ li {
       font-size: 14px;
       line-height: 150%;
    }
+
+   a:hover {
+      color: white;
+   }
    
 }
 </style>
