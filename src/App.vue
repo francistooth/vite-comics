@@ -1,12 +1,18 @@
 <script >
 import Navbar from './components/Navbar.vue'
 import Main from './components/Main.vue'
+import Merch from './components/Merch.vue'
+import Content from './components/Content.vue'
+import Social from './components/Social.vue'
 
 export default {
   name: 'App',
   components: {
       Navbar,
-      Main
+      Main,
+      Merch,
+      Content,
+      Social
   }
 }
 </script>
@@ -14,6 +20,9 @@ export default {
 <template>
   <Navbar />
   <Main />
+  <Merch />
+  <Content />
+  <Social />
 </template>
 
 <style lang="scss">
